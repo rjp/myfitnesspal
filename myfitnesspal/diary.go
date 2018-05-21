@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/codegangsta/cli"
-	"github.com/savaki/myfitnesspal"
+	"github.com/rjp/myfitnesspal"
 )
 
 var diaryCommand = cli.Command{

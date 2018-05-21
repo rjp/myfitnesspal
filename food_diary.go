@@ -62,7 +62,7 @@ func parseFoodDiary(r io.Reader) (*DiaryEntry, error) {
 	})
 
 	return &DiaryEntry{
-		EarlyMorning: entries.FindAll("Early Morning"),
+		Breakfast: entries.FindAll("Breakfast"),
 		Morning: entries.FindAll("Morning"),
 		Lunch:     entries.FindAll("Lunch"),
 		Afternoon:    entries.FindAll("Afternoon"),

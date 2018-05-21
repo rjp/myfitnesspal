@@ -22,7 +22,7 @@ type Macros struct {
 }
 
 type DiaryEntry struct {
-	EarlyMorning MacrosArray `json:"early,omitempty"`
+	Breakfast MacrosArray `json:"breakfast,omitempty"`
 	Morning MacrosArray `json:"morning,omitempty"`
 	Lunch     MacrosArray `json:"lunch,omitempty"`
 	Afternoon    MacrosArray `json:"afternoon,omitempty"`
